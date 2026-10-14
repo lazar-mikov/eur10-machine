@@ -1,6 +1,6 @@
 # Paper results
 
-Fake money only. Started 2026-10-14T23:46:41Z, 0.0 days ago. Last run 2026-10-14T23:46:43Z. Fee 0.25% per trade.
+Fake money only. Started 2026-10-14T23:46:41Z, 0.0 days ago. Last run 2026-10-14T23:47:47Z. Fee 0.25% per trade.
 Each account started with EUR 10. 'vs hold' compares it with buying the same coin at the start and holding.
 
 | Account | Equity EUR | Return | vs hold | Position | Trades |
