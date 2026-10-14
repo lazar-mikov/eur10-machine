@@ -1,0 +1,4 @@
+__pycache__/
+.pytest_cache/
+builds/backtest/data/
+builds/backtest/results/

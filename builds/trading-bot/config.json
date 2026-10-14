@@ -1,0 +1,12 @@
+{
+  "mode": "paper",
+  "fee": 0.0025,
+  "start_capital_eur": 10,
+  "pairs": {
+    "BTC": "XBTEUR",
+    "ETH": "ETHEUR",
+    "SOL": "SOLEUR",
+    "DOGE": "XDGEUR"
+  },
+  "intervals": [60, 1440]
+}
