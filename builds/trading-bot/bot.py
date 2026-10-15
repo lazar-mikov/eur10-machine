@@ -73,6 +73,23 @@ def apply_target(acc, target, price, fee):
     return side
 
 
+def step_account(acc, rule, times, closes, fee):
+    """Apply `rule` to every closed bar the account hasn't seen yet, oldest first, so a
+    late or skipped scheduled run loses no bars. A new account starts at the latest bar.
+    Returns the trades made as (side, price, bar_time)."""
+    new = [i for i, t in enumerate(times) if t > acc["last_bar"]]
+    if acc["last_bar"] == 0:
+        new = new[-1:]
+    made = []
+    for i in new:
+        target = 1 if rule == 1 else rule(closes[: i + 1])
+        side = apply_target(acc, target, closes[i], fee)
+        if side:
+            made.append((side, closes[i], times[i]))
+        acc["last_bar"] = times[i]
+    return made
+
+
 def append_csv(path, header, rows):
     new = not path.exists()
     with path.open("a", newline="") as f:
@@ -137,18 +154,14 @@ def main():
             except Exception as e:  # one bad pair must not stop the others
                 print(f"fetch failed for {coin} {interval}: {e}")
                 continue
-            bar_time, price = times[-1], closes[-1]
+            price = closes[-1]
             accounts = {f"hold|{coin}|{interval}": 1}
             for name, fn in STRATEGIES.items():
                 accounts[f"{name}|{coin}|{interval}"] = fn
             for key, rule in accounts.items():
                 acc = get_account(state, key, start)
-                if acc["last_bar"] < bar_time:
-                    target = 1 if rule == 1 else rule(closes)
-                    side = apply_target(acc, target, price, fee)
-                    if side:
-                        trades.append([ts, key, side, price, bar_time])
-                    acc["last_bar"] = bar_time
+                for side, fill, bar_time in step_account(acc, rule, times, closes, fee):
+                    trades.append([ts, key, side, fill, bar_time])
                 acc["equity"] = acc["cash"] + acc["units"] * price
                 acc["price"] = price
                 equity.append([ts, key, round(acc["equity"], 4), acc["pos"], price])

@@ -2,6 +2,8 @@
 
 Runs every hour through GitHub Actions (`.github/workflows/paper-bot.yml`). Fake money only.
 
+GitHub's hourly schedule is best-effort: runs can start late or be skipped. Each run replays every closed bar since the last one, oldest first, so a late run loses no trades.
+
 ## Each run
 
 1. Fetches closed hourly and daily price bars for BTC, ETH, SOL and DOGE in euros from Kraken's public API.
