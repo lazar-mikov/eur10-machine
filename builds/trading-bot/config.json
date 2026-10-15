@@ -1,6 +1,6 @@
 {
   "mode": "paper",
-  "fee": 0.0025,
+  "fee": 0.005,
   "start_capital_eur": 10,
   "pairs": {
     "BTC": "XBTEUR",
