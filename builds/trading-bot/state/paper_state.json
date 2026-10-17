@@ -13,9 +13,9 @@
   "buy_dip10_hold5|BTC|60": {
    "cash": 10,
    "equity": 10.0,
-   "last_bar": 1792224000,
+   "last_bar": 1792238400,
    "pos": 0,
-   "price": 72634.9,
+   "price": 72441.4,
    "start": 10,
    "trades": 0,
    "units": 0.0
@@ -33,9 +33,9 @@
   "buy_dip10_hold5|DOGE|60": {
    "cash": 10,
    "equity": 10.0,
-   "last_bar": 1792224000,
+   "last_bar": 1792238400,
    "pos": 0,
-   "price": 0.0715338,
+   "price": 0.0707646,
    "start": 10,
    "trades": 0,
    "units": 0.0
@@ -53,9 +53,9 @@
   "buy_dip10_hold5|ETH|60": {
    "cash": 10,
    "equity": 10.0,
-   "last_bar": 1792224000,
+   "last_bar": 1792238400,
    "pos": 0,
-   "price": 2165.47,
+   "price": 2156.47,
    "start": 10,
    "trades": 0,
    "units": 0.0
@@ -73,9 +73,9 @@
   "buy_dip10_hold5|SOL|60": {
    "cash": 10,
    "equity": 10.0,
-   "last_bar": 1792224000,
+   "last_bar": 1792238400,
    "pos": 0,
-   "price": 93.4,
+   "price": 92.4,
    "start": 10,
    "trades": 0,
    "units": 0.0
@@ -93,9 +93,9 @@
   "donchian_20_10|BTC|60": {
    "cash": 9.832699946620428,
    "equity": 9.832699946620428,
-   "last_bar": 1792224000,
+   "last_bar": 1792238400,
    "pos": 0,
-   "price": 72634.9,
+   "price": 72441.4,
    "start": 10,
    "trades": 2,
    "units": 0.0
@@ -113,9 +113,9 @@
   "donchian_20_10|DOGE|60": {
    "cash": 9.854857043850545,
    "equity": 9.854857043850545,
-   "last_bar": 1792224000,
+   "last_bar": 1792238400,
    "pos": 0,
-   "price": 0.0715338,
+   "price": 0.0707646,
    "start": 10,
    "trades": 2,
    "units": 0.0
@@ -133,9 +133,9 @@
   "donchian_20_10|ETH|60": {
    "cash": 9.597824645154937,
    "equity": 9.597824645154937,
-   "last_bar": 1792224000,
+   "last_bar": 1792238400,
    "pos": 0,
-   "price": 2165.47,
+   "price": 2156.47,
    "start": 10,
    "trades": 4,
    "units": 0.0
@@ -153,9 +153,9 @@
   "donchian_20_10|SOL|60": {
    "cash": 9.43018672139183,
    "equity": 9.43018672139183,
-   "last_bar": 1792224000,
+   "last_bar": 1792238400,
    "pos": 0,
-   "price": 93.4,
+   "price": 92.4,
    "start": 10,
    "trades": 4,
    "units": 0.0
@@ -172,10 +172,10 @@
   },
   "hold|BTC|60": {
    "cash": 0.0,
-   "equity": 9.922338517729294,
-   "last_bar": 1792224000,
+   "equity": 9.895905322348277,
+   "last_bar": 1792238400,
    "pos": 1,
-   "price": 72634.9,
+   "price": 72441.4,
    "start": 10,
    "trades": 1,
    "units": 0.00013660566088380784
@@ -192,10 +192,10 @@
   },
   "hold|DOGE|60": {
    "cash": 0.0,
-   "equity": 9.73249643325759,
-   "last_bar": 1792224000,
+   "equity": 9.627843300662065,
+   "last_bar": 1792238400,
    "pos": 1,
-   "price": 0.0715338,
+   "price": 0.0707646,
    "start": 10,
    "trades": 1,
    "units": 136.05451455476418
@@ -212,10 +212,10 @@
   },
   "hold|ETH|60": {
    "cash": 0.0,
-   "equity": 9.985975271486623,
-   "last_bar": 1792224000,
+   "equity": 9.9444721440162,
+   "last_bar": 1792238400,
    "pos": 1,
-   "price": 2165.47,
+   "price": 2156.47,
    "start": 10,
    "trades": 1,
    "units": 0.004611458607824918
@@ -232,10 +232,10 @@
   },
   "hold|SOL|60": {
    "cash": 0.0,
-   "equity": 9.962200598802397,
-   "last_bar": 1792224000,
+   "equity": 9.855538922155691,
+   "last_bar": 1792238400,
    "pos": 1,
-   "price": 93.4,
+   "price": 92.4,
    "start": 10,
    "trades": 1,
    "units": 0.1066616766467066
@@ -253,9 +253,9 @@
   "momentum_30|BTC|60": {
    "cash": 9.53000928118122,
    "equity": 9.53000928118122,
-   "last_bar": 1792224000,
+   "last_bar": 1792238400,
    "pos": 0,
-   "price": 72634.9,
+   "price": 72441.4,
    "start": 10,
    "trades": 8,
    "units": 0.0
@@ -273,9 +273,9 @@
   "momentum_30|DOGE|60": {
    "cash": 9.530504529191033,
    "equity": 9.530504529191033,
-   "last_bar": 1792224000,
+   "last_bar": 1792238400,
    "pos": 0,
-   "price": 0.0715338,
+   "price": 0.0707646,
    "start": 10,
    "trades": 4,
    "units": 0.0
@@ -293,9 +293,9 @@
   "momentum_30|ETH|60": {
    "cash": 9.680085824640368,
    "equity": 9.680085824640368,
-   "last_bar": 1792224000,
+   "last_bar": 1792238400,
    "pos": 0,
-   "price": 2165.47,
+   "price": 2156.47,
    "start": 10,
    "trades": 4,
    "units": 0.0
@@ -313,9 +313,9 @@
   "momentum_30|SOL|60": {
    "cash": 9.563455637155592,
    "equity": 9.563455637155592,
-   "last_bar": 1792224000,
+   "last_bar": 1792238400,
    "pos": 0,
-   "price": 93.4,
+   "price": 92.4,
    "start": 10,
    "trades": 4,
    "units": 0.0
@@ -333,9 +333,9 @@
   "sma_50_200|BTC|60": {
    "cash": 10,
    "equity": 10.0,
-   "last_bar": 1792224000,
+   "last_bar": 1792238400,
    "pos": 0,
-   "price": 72634.9,
+   "price": 72441.4,
    "start": 10,
    "trades": 0,
    "units": 0.0
@@ -353,9 +353,9 @@
   "sma_50_200|DOGE|60": {
    "cash": 10,
    "equity": 10.0,
-   "last_bar": 1792224000,
+   "last_bar": 1792238400,
    "pos": 0,
-   "price": 0.0715338,
+   "price": 0.0707646,
    "start": 10,
    "trades": 0,
    "units": 0.0
@@ -373,9 +373,9 @@
   "sma_50_200|ETH|60": {
    "cash": 10,
    "equity": 10.0,
-   "last_bar": 1792224000,
+   "last_bar": 1792238400,
    "pos": 0,
-   "price": 2165.47,
+   "price": 2156.47,
    "start": 10,
    "trades": 0,
    "units": 0.0
@@ -393,9 +393,9 @@
   "sma_50_200|SOL|60": {
    "cash": 10,
    "equity": 10.0,
-   "last_bar": 1792224000,
+   "last_bar": 1792238400,
    "pos": 0,
-   "price": 93.4,
+   "price": 92.4,
    "start": 10,
    "trades": 0,
    "units": 0.0
